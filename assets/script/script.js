@@ -16,7 +16,17 @@ $(document).ready(function() {
 
   $(".background").click(function () {
     $(".background-text").show();
+    $(".background-text").css("height", "501px");
+    $(".background-text").css("height", "861px");
   });
+
+  $(".favorites").click(function () {
+    $(".favorites-text").show();
+  });
+
+  $(".skills").click(function () {
+    $(".skills-text").show();
+  }); 
 
   $(".x-button").click(function () {
     hideAboutPanes();
@@ -24,6 +34,8 @@ $(document).ready(function() {
 
   function hideAboutPanes() {
       $(".background-text").hide();
+      $(".favorites-text").hide();
+      $(".skills-text").hide();
   }
 
 });

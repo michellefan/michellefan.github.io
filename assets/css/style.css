@@ -9,7 +9,7 @@
 }
 
 html {
-	overflow: auto;
+	overflow: none;
 }
 
 .homepage {
@@ -28,8 +28,6 @@ html {
 .intro {
 	font-family: 'Lobster Two', cursive;
 	font-size: 70px;
-	margin: 0;
-    padding: 0;
     text-align: center;
     width: 50%;
     margin: auto;
@@ -103,24 +101,25 @@ html {
 
 .full-text {
 	background-color: #9F98B7;
-	font-size: 15px;
-	letter-spacing: 3px;
-	font-family: 'Lobster Two', cursive;
+	font-size: 19px;
+	line-height: 32px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 10px;
 	color:#333333;
-	padding: 0px;
 	position: absolute;
 	float: right;
 	border-radius: 5px;
-	overflow: hidden;
-	width:100%;
-	height:100%;
-	padding: 30px;
+	width: 761px;
+	height: 501px;
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-right: 200px;
 }
 
 .x-button {
 	width:20px;
 	top:20px;
-	right:80px;
+	right:180px;
 	position: absolute;
 }
 
@@ -154,6 +153,41 @@ html {
 .info:hover {
 	cursor: pointer;
 	color:white;
+}
+
+/*contact*/
+.get-in-touch {
+	font-family: 'Lobster Two', cursive;
+	color: white;
+	font-size: 60px;
+    padding: 0;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    letter-spacing: 7px;
+}
+
+.contact-text {
+	text-align: center;
+	font-family: 'Lobster Two', cursive;
+	color:#333333;
+	font-size: 20px;
+    width: 50%;
+    margin: auto;
+    letter-spacing: 2px;
+}
+
+.icon-panel {
+	width: 32%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.contact-icon {
+	display: inline-block;
+	padding: 50px;
 }
 
 /*navbar*/
