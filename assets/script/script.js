@@ -1,6 +1,8 @@
 $(document).ready(function() {
   hideAboutPanes();
+  // jQuery Function Number #1
   $(".home-button").click(function () {
+    // jQuery Function Number #2
     $(".carousel").css("margin-left", "0vw");
     setTimeout(hideAboutPanes, 800);
   });
@@ -15,9 +17,8 @@ $(document).ready(function() {
   });
 
   $(".background").click(function () {
+    // jQuery Function Number #3
     $(".background-text").show();
-    $(".background-text").css("height", "501px");
-    $(".background-text").css("height", "861px");
   });
 
   $(".favorites").click(function () {
