@@ -1,0 +1,225 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+}
+
+html {
+	overflow: auto;
+}
+
+.homepage {
+	background-color: #FE6C79;
+}
+
+.about {
+	background-color: #757196;
+}
+
+.contact {
+	background-color: #54ACAE;
+}
+
+/*homepage*/
+.intro {
+	font-family: 'Lobster Two', cursive;
+	font-size: 70px;
+	margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.intro-letter {
+	display: inline-block;
+	padding: 0px;
+	color: white;
+}
+
+.intro-letter-pink {
+	color: #cc0066;
+}
+
+.intro-letter:hover {
+	color: #cc0066;
+}
+
+.intro-text {
+	text-align: center;
+	font-family: 'Lobster Two', cursive;
+	color:#333333;
+	font-size: 20px;
+    width: 50%;
+    margin: auto;
+    letter-spacing: 2px;
+}
+
+.icon-bar {
+	padding-top: 100px;
+	width: 350px;
+	margin: auto;
+}
+
+.icon {
+	display: inline-block;
+	width: 40px;
+	padding: 20px;
+}
+
+/*about*/
+.about-me {
+	position: absolute;
+	top:40%;
+	left:9%;
+	font-family: 'Lobster Two', cursive;
+	color: white;
+	font-size: 60px;
+	letter-spacing: 7px;
+}
+
+.about-wrapper {
+	padding: 0px;
+	position: relative;
+	float: right;
+	top: 100px;
+	right: 55px;
+	width: 861px;
+	height: 501px;
+	border-radius: 5px;
+	overflow: hidden;
+	background-color: #9F98B7;
+}
+
+.text-container {
+	position: absolute;
+}
+
+.full-text {
+	background-color: #9F98B7;
+	font-size: 15px;
+	letter-spacing: 3px;
+	font-family: 'Lobster Two', cursive;
+	color:#333333;
+	padding: 0px;
+	position: absolute;
+	float: right;
+	border-radius: 5px;
+	overflow: hidden;
+	width:100%;
+	height:100%;
+	padding: 30px;
+}
+
+.x-button {
+	width:20px;
+	top:20px;
+	right:80px;
+	position: absolute;
+}
+
+.x-button:hover {
+	cursor: pointer;
+}
+
+.michpic {
+	position: relative;
+	height: 250px;
+}
+
+.info-box {
+	font-size: 20px;
+	letter-spacing: 7px;
+	font-family: 'Lobster Two', cursive;
+	color:#333333;
+	margin: 0px;
+	padding: 0px;
+	width: 287px;
+	display: inline-block;
+	height: 250px;
+	overflow: hidden;
+}
+
+.info {
+	line-height: 250px;
+	text-align: center;
+}
+
+.info:hover {
+	cursor: pointer;
+	color:white;
+}
+
+/*navbar*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 25px;
+    bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color:#333333;
+}
+
+li {
+    float: right;
+    display: block;
+    text-decoration: none;
+    font-family: 'Lobster Two', cursive;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    letter-spacing: 7px;
+}
+
+li:hover {
+	color:#333333;
+	cursor: pointer;
+}
+
+/*carousel*/
+.page-wrapper {
+	height: 100vh;
+	width: 100vw;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+
+.carousel-container {
+	width: 100vw;
+	margin: auto;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+
+.carousel {
+	width: 400vw;
+	height: 100vh;
+	margin-left: 0vw;
+	-webkit-transition: 0.3s;
+}
+
+.carousel-item {
+	width: 100vw;
+	position: relative;
+	height: 100vh;
+	float: left;
+	overflow: hidden;
+}
